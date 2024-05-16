@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    background-color: #d4dadc;
+    overflow-y: hidden !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.row {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.column {
+
+}
+
+.map-column {
+    width: 35%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.settings-column {
+    width: 30%;
+    height: 100vh;
+    position: absolute;
+    left: 35%;
+    top: 0;
+    padding-top: 5px;
+    overflow-y: scroll;
+    /* background-color: aqua; */
+}
+    .setting-container {
+        background-color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 2.5px;
+        box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.1);
+    }
+        .slider-label {
+            margin-left: 20px;
+        }
+            #selected-date-range {
+                margin-top: 10px;
+            }
+        .slider {
+            margin-top: 10px;
+        }
+        #severity-dropdown, #sex-dropdown {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+    #info-button-container {
+        background-color: transparent;
+        margin-bottom: 10px;
+    }
+        .info-button {
+            text-align: center;
+            cursor: pointer;
+            width: calc(50% - 5px);
+            float: left;
+            display: block;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin: -15px 0 20px 0;
+        }
+            #github {
+                background-color: #161b22 !important;
+                color: white;
+            }
+            #youtube {
+                background-color: red !important;
+                color: white;
+                margin-left: 10px;
+            }
+
+
+.chart-column {
+    width: 35%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
+
+.scatterplot {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.pie-chart {
+
+}
+
+.age-plot {
+
+}
