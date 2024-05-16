@@ -241,7 +241,6 @@ def update_scatterplot(selected_range, time_range, age_driver_range, age_vehicle
         mapbox_zoom=4.5,
         mapbox_center={"lat": 54.5, "lon": -4},
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
-        height=800,
         showlegend=False
     )
 

@@ -73,6 +73,7 @@ body, html {
     #info-button-container {
         background-color: transparent;
         margin-bottom: 10px;
+        box-shadow: none;
     }
         .info-button {
             text-align: center;
