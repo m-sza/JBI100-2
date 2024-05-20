@@ -43,3 +43,27 @@ The visualization is based on the [Road Safety Data](https://www.data.gov.uk/dat
 ## Purpose
 
 The purpose of this visualization is to provide an interactive and intuitive way to explore and analyze road safety data in Great Britain. By offering various filtering options and presenting the data through different visualizations, the application aims to facilitate a deeper understanding of the factors contributing to road accidents and their severity. This insight can be valuable for policymakers, researchers, and road safety organizations in identifying patterns, trends, and areas for improvement in road safety measures.
+
+
+## Running the Code
+
+To run the code and launch the visualization application, follow these steps:
+
+1. Ensure that you have Python installed on your system (version 3.6 or higher).
+
+2. Clone the repository or download the source code files.
+
+3. Open a terminal or command prompt and navigate to the project directory.
+
+4. Install the required dependencies by running the following command:
+pip install -r requirements.txt
+
+5. Once the dependencies are installed, run the following command to start the application:
+python app.py
+
+6. The application will start running, and you will see output similar to the following:
+Dash is running on http://127.0.0.1:8050/
+
+7. Open a web browser and visit the provided URL (e.g., http://127.0.0.1:8050/) to access the visualization application.
+
+That's it! You should now be able to run the code and explore the UK Road Safety Data Visualization application in your web browser.

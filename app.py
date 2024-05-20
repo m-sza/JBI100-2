@@ -129,8 +129,8 @@ app.layout = html.Div(className='container', children=[
             ]),
             # Info buttons
             html.Div(className='setting-container', id='info-button-container', children=[
-                html.A(className='setting-container info-button', href="https://dash.plotly.com/dash-html-components/link", id="github", children=["View on GitHub"]),
-                html.A(className='setting-container info-button', id="youtube", children=["Watch Demo"]),
+                html.A(className='setting-container info-button', href="https://github.com/mszabolcs03/JBI100-2", id="github", children=["View on GitHub"]),
+                html.A(className='setting-container info-button', href='https://www.youtube.com/@matyasszabolcs8081/videos', id="youtube", children=["Watch Demo"]),
             ])
         ]),
         # Charts and graphs
@@ -238,7 +238,7 @@ def update_scatterplot(selected_range, time_range, age_driver_range, age_vehicle
     fig.update_layout(
         # mapbox_style="open-street-map",
         mapbox_style="carto-positron",
-        mapbox_zoom=4.5,
+        mapbox_zoom=5,
         mapbox_center={"lat": 54.5, "lon": -4},
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
         showlegend=False
